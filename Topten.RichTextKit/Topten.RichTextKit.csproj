@@ -3,7 +3,7 @@
   <Import Project="../buildtools/Topten.props" />
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;netcoreapp2.1;net462;net5.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;netcoreapp2.1;net462;</TargetFrameworks>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)'=='Release'">
@@ -23,8 +23,8 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="SkiaSharp" Version="2.88.0-preview.171" />
-    <PackageReference Include="SkiaSharp.HarfBuzz" Version="2.88.0-preview.171" />
+    <PackageReference Include="SkiaSharp" Version="2.88.1-preview.71" />
+    <PackageReference Include="SkiaSharp.HarfBuzz" Version="2.88.1-preview.71" />
   </ItemGroup>
 
 </Project>
